@@ -1,0 +1,113 @@
+﻿<Window x:Class="WPF_Malovani.Views.SaveWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Malovani.Views"
+        xmlns:con="clr-namespace:WPF_Malovani.Converters"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:behaviors="clr-namespace:WPF_Malovani.Behaviors"
+        mc:Ignorable="d"
+        Title="Uložit" Height="450" Width="600" Background="{StaticResource Background}" x:Name="saveWinodw" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <con:HieghtToFontSize x:Key="HieghtToFontSize"/>
+        <con:TagToImageConverter x:Key="TagToImageConverter"/>
+        <con:SelectedItemToVisibility x:Key="SelectedItemToVisibility"/>
+        <con:HalfFontSize x:Key="HalfFontSize"/>
+    </Window.Resources>
+
+    <Grid  FocusManager.FocusedElement="{Binding ElementName=folderTreeView}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TreeView x:Name="folderTreeView" Background="{StaticResource TreeViewBackground}" Loaded="folderTreeView_Loaded"  Margin="15">
+            <TreeView.Resources>
+                <Style TargetType="{x:Type TreeViewItem}">
+                    <Setter Property="HeaderTemplate">
+                        <Setter.Value>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <fa:ImageAwesome Margin="4" Icon="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=TreeViewItem}, Path=Tag, Converter= {StaticResource TagToImageConverter}}" Width="20" Height="20" Foreground="DarkBlue"/>
+                                    <TextBlock Margin="5,0,0,0" Text="{Binding }" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </TreeView.Resources>
+
+            <TreeView.Template>
+                <ControlTemplate TargetType="TreeView">
+                    <ScrollViewer Background="{TemplateBinding Background}" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+                        <ItemsPresenter></ItemsPresenter>
+                        <i:Interaction.Behaviors>
+                            <behaviors:ScrollViewerBehavior/>
+                        </i:Interaction.Behaviors>
+                    </ScrollViewer>                 
+                </ControlTemplate>
+            </TreeView.Template>
+            
+            <i:Interaction.Behaviors>
+                <behaviors:TreeViewBehavior DirectoryUpdate="{Binding DirectoryUpdate}"/>
+            </i:Interaction.Behaviors>
+        </TreeView>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.3*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>               
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+
+            <Border x:Name="nameBox" Grid.Row="1">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="0,0,10,0">
+                    <TextBlock x:Name="nameTB" Text="Název:   " FontFamily="{StaticResource BasicFont}" FontSize="{Binding ElementName=nameBox, Path=ActualHeight, Converter={StaticResource HieghtToFontSize}}"/>
+                    <TextBox x:Name="nameTextBox" Text="{Binding FileName, Mode=OneWayToSource}" HorizontalAlignment="Stretch" MinWidth="160"  MaxWidth="500" FontSize="{Binding ElementName=nameBox, Path=ActualHeight, Converter={StaticResource HieghtToFontSize}}" Background="{StaticResource FontPickBackground}"/>
+                </StackPanel>
+            </Border>
+
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3.5*"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Uložit obrázek (.png):"  VerticalAlignment="Bottom" HorizontalAlignment="Left" FontFamily="{StaticResource BasicFont}" FontSize="{Binding ElementName=nameBox, Path=ActualHeight, Converter={StaticResource HieghtToFontSize}}"/>
+                <Viewbox Grid.Column="1" Margin="10,20,10,0" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                    <CheckBox IsChecked="{Binding SavePictureChecked, Mode=OneWayToSource}" VerticalAlignment="Bottom"  Background="{StaticResource FontPickBackground}"/>
+                </Viewbox>
+
+                <TextBlock Grid.Row="1" Text="Uložit projekt (.xml):" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontFamily="{StaticResource BasicFont}" FontSize="{Binding ElementName=nameBox, Path=ActualHeight, Converter={StaticResource HieghtToFontSize}}"/>
+                <Viewbox Grid.Column="1" Grid.Row="1" Margin="10,20,10,0" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                    <CheckBox IsChecked="{Binding SaveProjectChecked, Mode=OneWayToSource}" Background="{StaticResource FontPickBackground}"/>
+                </Viewbox>
+            </Grid>
+
+            <DockPanel x:Name="dockPanel" Grid.Row="3" HorizontalAlignment="Stretch" VerticalAlignment="Bottom">                
+                <Rectangle DockPanel.Dock="Bottom" Width="{Binding ElementName=dockPanel,Path=ActualWidth}" Height="1" Fill="{StaticResource BorderColor}" Margin="15,0,15,0"/>
+                <Button Command="{Binding SetDefaultDir}" Visibility="{Binding ElementName=folderTreeView, Path=SelectedItem, Converter={StaticResource SelectedItemToVisibility}}" x:Name="defaultDirBt" Margin="20,0,0,10" Cursor="Hand" HorizontalAlignment="Left" Style="{StaticResource BlackTransparentButton}">
+                    <TextBlock Text="Označit jako výchozí" FontFamily="{DynamicResource BasicFont}" Foreground="{Binding ElementName=defaultDirBt,Path=Foreground}" FontWeight="Bold" FontSize="{Binding ElementName=nameTB, Path=FontSize, Converter={StaticResource HalfFontSize},Mode=OneWay}"/>
+                </Button>
+            </DockPanel>
+
+            <Border Grid.Row="4">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Button IsDefault="True" Command="{Binding Save}" CommandParameter="{Binding ElementName=saveWinodw}" Content="Uložit" Style="{StaticResource TransparentButton}" FontWeight="Bold" FontSize="40" FontFamily="{StaticResource BasicFont}"/>
+                    <Button Command="{Binding Cancel}" CommandParameter="{Binding ElementName=saveWinodw}" Content="Zrušit" Style="{StaticResource TransparentButton}" Margin="30,0,0,0" FontWeight="Bold" FontSize="40" FontFamily="{StaticResource BasicFont}"/>
+                </StackPanel>
+            </Border>
+            
+        </Grid>
+        
+    </Grid>
+</Window>

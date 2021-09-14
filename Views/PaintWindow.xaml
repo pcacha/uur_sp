@@ -1,0 +1,207 @@
+﻿<Window x:Class="WPF_Malovani.PaintWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Malovani"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        xmlns:con="clr-namespace:WPF_Malovani.Converters"
+        xmlns:vm ="clr-namespace:WPF_Malovani.ViewModels"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:behaviors="clr-namespace:WPF_Malovani.Behaviors"
+        mc:Ignorable="d"
+        Title="Malování" Height="420" Width="800" Background="{StaticResource Background}" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <con:PopupIsOpen x:Key="PopupIsOpen"/>
+        <con:BoolToSelected x:Key="BoolToSelected"/>
+        <con:SelectedShapeToBtBackground x:Key="SelectedShapeToBtBackground"/>
+        <con:SelectedModeToBtBackground x:Key="SelectedModeToBtBackground"/>
+        <con:ModeToCursor x:Key="ModeToCursor"/>
+        <con:SelectedThicknessToBtBackground x:Key="SelectedThicknessToBtBackground"/>
+        <con:ImageInsertedToIcon x:Key="ImageInsertedToIcon"/>
+    </Window.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid Background="{StaticResource ControlsPanel}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="80"/>
+            </Grid.ColumnDefinitions>
+
+            <DockPanel LastChildFill="False">
+                <Rectangle Style="{StaticResource VerticalSeparator}"/>
+                <TextBlock Style="{StaticResource LabelTextBlock}" Text="Uložit"/>
+                <Button Command="{Binding Save}" DockPanel.Dock="Bottom" x:Name="save" ToolTip="Uložit" Width="42" Height="42" HorizontalAlignment="Center" VerticalAlignment="Center" Style="{StaticResource TransparentButton}">
+                    <fa:ImageAwesome Icon="Save" Foreground="{Binding ElementName=save, Path=Foreground}"/>
+                </Button>
+            </DockPanel>
+
+            <DockPanel LastChildFill="False" Grid.Column="1">                
+                <Rectangle Style="{StaticResource VerticalSeparator}"/>
+                
+                <TextBlock Style="{StaticResource LabelTextBlock}" Text="Tvary"/>
+                
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" HorizontalAlignment="Center">
+                    <Button x:Name="slash" ToolTip="Úsečka" Style="{StaticResource ShapeButton}" Command="{Binding SelectShapeMode}" CommandParameter="{x:Static vm:AvailableShapes.Line}" Foreground="{Binding SelectedShapeMode, Converter={StaticResource SelectedShapeToBtBackground}, ConverterParameter={x:Static vm:AvailableShapes.Line}}">
+                        <Border Background="{StaticResource ControlsPanel}" Width="{Binding ElementName=slash,Path=ActualWidth}" Height="{Binding ElementName=slash, Path=ActualHeight}">
+                            <Rectangle Width="{Binding ElementName=slash,Path=ActualWidth}" Height="3" Fill="{Binding ElementName=slash, Path=Foreground}">
+                                <Rectangle.RenderTransform>
+                                    <TransformGroup>
+                                        <RotateTransform Angle="45"/>
+                                        <TranslateTransform X="4" Y="-6"/>
+                                    </TransformGroup>
+                                </Rectangle.RenderTransform>
+                            </Rectangle>
+                        </Border>                       
+                    </Button>
+
+                    <Button x:Name="rectangle" ToolTip="Obdélník" Style="{StaticResource ShapeButton}" Command="{Binding SelectShapeMode}" CommandParameter="{x:Static vm:AvailableShapes.Rectangle}" Foreground="{Binding SelectedShapeMode, Converter={StaticResource SelectedShapeToBtBackground}, ConverterParameter={x:Static vm:AvailableShapes.Rectangle}}">
+                        <Rectangle VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Width="{Binding ElementName=rectangle, Path=ActualWidth}" Height="{Binding ElementName=rectangle,Path=ActualHeight}"  Fill="{Binding ElementName=rectangle, Path=Foreground}"/>
+                    </Button>
+
+                    <Button x:Name="photo" ToolTip="Vyber obrázek" Style="{StaticResource ShapeButton}" Margin="0,2,0,0" Command="{Binding OpenPicture}">
+                        <fa:ImageAwesome Icon="{Binding ImageInserted, Converter={StaticResource ImageInsertedToIcon}}"  Foreground="{Binding ElementName=photo, Path=Foreground}"/>
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" HorizontalAlignment="Center" Margin="0,0,0,7">
+                    <Button x:Name="curve" ToolTip="Křivka" Style="{StaticResource ShapeButton}" Command="{Binding SelectShapeMode}" CommandParameter="{x:Static vm:AvailableShapes.Curve}" Foreground="{Binding SelectedShapeMode, Converter={StaticResource SelectedShapeToBtBackground}, ConverterParameter={x:Static vm:AvailableShapes.Curve}}">
+                        <fa:ImageAwesome Icon="Pencil"  Foreground="{Binding ElementName=curve, Path=Foreground}"/>
+                    </Button>
+
+                    <Button x:Name="ellipse" ToolTip="Elipsa" Style="{StaticResource ShapeButton}" Command="{Binding SelectShapeMode}" CommandParameter="{x:Static vm:AvailableShapes.Ellipse}" Foreground="{Binding SelectedShapeMode, Converter={StaticResource SelectedShapeToBtBackground}, ConverterParameter={x:Static vm:AvailableShapes.Ellipse}}">
+                        <Ellipse VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Width="{Binding ElementName=ellipse, Path=ActualWidth}" Height="{Binding ElementName=ellipse,Path=ActualHeight}"  Fill="{Binding ElementName=ellipse, Path=Foreground}"/>
+                    </Button>
+
+                    <Button x:Name="text" ToolTip="Text" Style="{StaticResource ShapeButton}" Margin="0,2,0,0" Command="{Binding SelectShapeMode}" CommandParameter="{x:Static vm:AvailableShapes.Text}" Foreground="{Binding SelectedShapeMode, Converter={StaticResource SelectedShapeToBtBackground}, ConverterParameter={x:Static vm:AvailableShapes.Text}}">
+                        <fa:ImageAwesome Icon="Font"  Foreground="{Binding ElementName=text, Path=Foreground}"/>
+                    </Button>
+                </StackPanel>
+            </DockPanel>
+
+            <DockPanel LastChildFill="False" Grid.Column="2">
+                <Rectangle Style="{StaticResource VerticalSeparator}"/>
+
+                <TextBlock Style="{StaticResource LabelTextBlock}" Text="Úpravy"/>
+
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,6">
+                    <Button x:Name="color" Command="{Binding Customize}" ToolTip="Změnit barvu/font/velikost" Style="{StaticResource MenuButton}">
+                        <fa:ImageAwesome Icon="Tint"  Foreground="{Binding ElementName=color,Path=Foreground}"/>
+                    </Button>
+
+                    <Button x:Name="thicknessBt" ToolTip="Změnit tloušťku" Style="{StaticResource MenuButton}">                        
+                        <Button.Content>
+                            <Grid>
+                                <Popup x:Name="thicknessPopup" Style="{StaticResource BasePopUp}" VerticalOffset="5">
+                                    <Grid Height="100" Width="150">
+                                        <Border Background="{StaticResource BorderColor}" Width="20" Height="20" VerticalAlignment="Top">
+                                            <Border.RenderTransform>
+                                                <TransformGroup>
+                                                    <RotateTransform Angle="45"/>
+                                                    <TranslateTransform X="-40"/>
+                                                </TransformGroup>
+                                            </Border.RenderTransform>
+                                        </Border>
+
+                                        <Border VerticalAlignment="Bottom" Height="90" Width="150" Background="{StaticResource ControlsPanel}" BorderBrush="{StaticResource BorderColor}" BorderThickness="4" CornerRadius="15">
+                                            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                                                <Button x:Name="thinLine" Style="{StaticResource ThicknessSelection}" Command="{Binding SelectThickness}" CommandParameter="{x:Static vm:AvailableThickness.Thin}" Foreground="{Binding SelectedThickness, Converter={StaticResource SelectedThicknessToBtBackground}, ConverterParameter={x:Static vm:AvailableThickness.Thin}}">
+                                                    <Grid Width="100" Height="15" Background="{StaticResource ControlsPanel}">
+                                                        <Rectangle Width="100" Height="3" Fill="{Binding ElementName=thinLine, Path=Foreground}"/>
+                                                    </Grid>                                                    
+                                                </Button>
+
+                                                <Button x:Name="mediumLine" Style="{StaticResource ThicknessSelection}" Command="{Binding SelectThickness}" CommandParameter="{x:Static vm:AvailableThickness.Medium}" Foreground="{Binding SelectedThickness, Converter={StaticResource SelectedThicknessToBtBackground}, ConverterParameter={x:Static vm:AvailableThickness.Medium}}">
+                                                    <Grid Width="100" Height="15" Background="{StaticResource ControlsPanel}">
+                                                        <Rectangle Width="100" Height="5" Fill="{Binding ElementName=mediumLine, Path=Foreground}"/>
+                                                    </Grid>
+                                                </Button>
+
+                                                <Button x:Name="thickLine" Style="{StaticResource ThicknessSelection}" Command="{Binding SelectThickness}" CommandParameter="{x:Static vm:AvailableThickness.Thick}" Foreground="{Binding SelectedThickness, Converter={StaticResource SelectedThicknessToBtBackground}, ConverterParameter={x:Static vm:AvailableThickness.Thick}}">
+                                                    <Grid Width="100" Height="15" Background="{StaticResource ControlsPanel}">
+                                                        <Rectangle Width="100" Height="7" Fill="{Binding ElementName=thickLine, Path=Foreground}"/>
+                                                    </Grid>
+                                                </Button>
+                                            </StackPanel>
+                                        </Border>
+                                    </Grid>
+                                </Popup>
+                                
+                                <fa:ImageAwesome Icon="SortAmountDesc" Foreground="{Binding ElementName=thicknessBt, Path=Foreground}"/>
+                            </Grid>
+                        </Button.Content>
+
+                        <Button.Triggers>
+                            <EventTrigger RoutedEvent="ButtonBase.Click">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <BooleanAnimationUsingKeyFrames Storyboard.TargetProperty="IsOpen" Storyboard.TargetName="thicknessPopup">
+                                            <DiscreteBooleanKeyFrame KeyTime="0:0:0.01" Value="{Binding IsOpen, ElementName=thicknessPopup, Converter={StaticResource PopupIsOpen}}" />
+                                        </BooleanAnimationUsingKeyFrames>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </Button.Triggers>
+                    </Button>
+
+                    <Button x:Name="fill" ToolTip="Vyplnit tvar" Style="{StaticResource MenuButton}" Margin="0" Command="{Binding FillShapesCommand}" Foreground="{Binding FillShapes, Converter={StaticResource BoolToSelected}}">
+                        <fa:ImageAwesome Icon="Adjust"  Foreground="{Binding ElementName=fill, Path=Foreground}"/>
+                    </Button>
+                </StackPanel>                
+            </DockPanel>
+
+            <DockPanel LastChildFill="False" Grid.Column="3">
+                <Rectangle Style="{StaticResource VerticalSeparator}"/>
+
+                <TextBlock Style="{StaticResource LabelTextBlock}" Text="Módy"/>
+
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,6">
+                    <Button x:Name="paint" ToolTip="Maluj" Style="{StaticResource MenuButton}" Command="{Binding SelectMode}" CommandParameter="{x:Static vm:AvailableModes.Paint}" Foreground="{Binding SelectedMode, Converter={StaticResource SelectedModeToBtBackground}, ConverterParameter={x:Static vm:AvailableModes.Paint}}">
+                        <fa:ImageAwesome Icon="PaintBrush"  Foreground="{Binding ElementName=paint,Path=Foreground}"/>
+                    </Button>
+
+                    <Button x:Name="drag" ToolTip="Přetáhni" Style="{StaticResource MenuButton}" Command="{Binding SelectMode}" CommandParameter="{x:Static vm:AvailableModes.Grab}" Foreground="{Binding SelectedMode, Converter={StaticResource SelectedModeToBtBackground}, ConverterParameter={x:Static vm:AvailableModes.Grab}}">
+                        <fa:ImageAwesome Icon="HandGrabOutline" Foreground="{Binding ElementName=drag,Path=Foreground}"/>
+                    </Button>
+
+                    <Button x:Name="delete" ToolTip="Odstraň" Style="{StaticResource MenuButton}" Margin="0" Command="{Binding SelectMode}" CommandParameter="{x:Static vm:AvailableModes.Delete}" Foreground="{Binding SelectedMode, Converter={StaticResource SelectedModeToBtBackground}, ConverterParameter={x:Static vm:AvailableModes.Delete}}">
+                        <fa:ImageAwesome Icon="Trash"  Foreground="{Binding ElementName=delete, Path=Foreground}"/>
+                    </Button>
+                </StackPanel>
+            </DockPanel>
+
+            <TextBlock Grid.Column="5" Text="{Binding Dimensions, Mode=OneTime}" Margin="0,0,5,5" VerticalAlignment="Bottom" HorizontalAlignment="Right" FontFamily="{StaticResource BasicFont}" Foreground="{StaticResource LabelColor}"/>
+
+        </Grid>
+
+        <Rectangle Grid.Row="1" Height="2" VerticalAlignment="Top"  HorizontalAlignment="Stretch" Fill="{StaticResource BorderColor}"/>
+
+        <ScrollViewer Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="15,17, 3, 3" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <ItemsControl ItemsSource="{Binding Shapes}" x:Name="itemsControl">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Canvas x:Name="paintingCanvas" Width="{Binding PixelsX, Mode=OneTime}" Height="{Binding PixelsY, Mode=OneTime}" Background="White" Cursor="{Binding SelectedMode, Converter={StaticResource ModeToCursor}}">
+                            <i:Interaction.Behaviors>
+                                <behaviors:PaintBehavior  MouseDown="{Binding MouseDown}" MouseUp="{Binding MouseUp}" MouseMove="{Binding MouseMove}"/>
+                            </i:Interaction.Behaviors>
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="Loaded">
+                                    <i:InvokeCommandAction Command="{Binding LoadCanvas}" CommandParameter="{Binding ElementName=paintingCanvas}"/>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>   
+                        </Canvas>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>            
+        </ScrollViewer>
+    </Grid>      
+</Window>

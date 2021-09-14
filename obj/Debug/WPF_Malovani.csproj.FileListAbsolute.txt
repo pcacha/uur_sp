@@ -1,0 +1,193 @@
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\StartupWindow.g.cs
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\App.g.cs
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani_MarkupCompile.cache
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani_MarkupCompile.lref
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\App.baml
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.exe
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.pdb
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\WPF_Malovani.exe.config
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\WPF_Malovani.exe
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\WPF_Malovani.pdb
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\StartupWindow.baml
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.g.resources
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.Properties.Resources.resources
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.csproj.GenerateResource.cache
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\FontAwesome.WPF.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\FontAwesome.WPF.xml
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.csproj.CopyComplete
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\CustomizeWindow.g.cs
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\CustomizeWindow.baml
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\SaveWindow.g.cs
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\SaveWindow.baml
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\WPF_Malovani.exe.config
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\WPF_Malovani.exe
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\WPF_Malovani.pdb
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\FontAwesome.WPF.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\FontAwesome.WPF.xml
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.csprojAssemblyReference.cache
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\CustomizeWindow.g.cs
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\SaveWindow.g.cs
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\StartupWindow.g.cs
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\App.g.cs
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani_MarkupCompile.cache
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani_MarkupCompile.lref
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\App.baml
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\CustomizeWindow.baml
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\SaveWindow.baml
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\StartupWindow.baml
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.g.resources
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.Properties.Resources.resources
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.csproj.GenerateResource.cache
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.csproj.CopyComplete
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.exe
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.pdb
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\PaintWindow.g.cs
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\PaintWindow.baml
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\System.Windows.Interactivity.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\System.Windows.Interactivity.xml
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.csprojAssemblyReference.cache
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\TypeTextWindow.g.cs
+D:\Dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\TypeTextWindow.baml
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\PaintWindow.g.cs
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\TypeTextWindow.g.cs
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\System.Windows.Interactivity.xml
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\PaintWindow.baml
+C:\Workspace\dok-Pavel\Visual Studio 2019\Projects\WPF_Malovani\WPF_Malovani\obj\Debug\Views\TypeTextWindow.baml
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\WPF_Malovani.exe.config
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\WPF_Malovani.exe
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\WPF_Malovani.pdb
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\FontAwesome.WPF.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\System.Windows.Interactivity.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\FontAwesome.WPF.xml
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\System.Windows.Interactivity.xml
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.csprojAssemblyReference.cache
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\Views\CustomizeWindow.g.cs
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\Views\PaintWindow.g.cs
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\Views\SaveWindow.g.cs
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\Views\StartupWindow.g.cs
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\Views\TypeTextWindow.g.cs
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\App.g.cs
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani_MarkupCompile.cache
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani_MarkupCompile.lref
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\App.baml
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\Views\CustomizeWindow.baml
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\Views\PaintWindow.baml
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\Views\SaveWindow.baml
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\Views\StartupWindow.baml
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\Views\TypeTextWindow.baml
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.g.resources
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.Properties.Resources.resources
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.csproj.GenerateResource.cache
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.csproj.CopyComplete
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.exe
+D:\Dok-Pavel\škola\UUR\dodělání semestralky\WPF_Malovani\WPF_Malovani\obj\Debug\WPF_Malovani.pdb
